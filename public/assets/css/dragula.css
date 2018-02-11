@@ -1,0 +1,143 @@
+.player > img {
+    position: relative;
+
+}
+
+.items > .hats > img {
+    width: 10%;
+
+}
+.items > .tops > img {
+    width: 10%;
+}
+.items > .hands > img {
+    width: 10%;
+}
+.items > .shoes> img {
+    width: 10%;
+}
+
+
+.head {
+    height: 11%;
+    width: 5%;
+	margin-top: 2vh;
+    margin-left: 16vw;
+    position: absolute;
+	border: 2.5px solid;
+	color: orange;
+	opacity: 0.8;
+	background-color: blue;
+    z-index: 1000;
+
+}
+.upper {
+    height: 30%;
+    width: 17.5%;
+    margin-left: 9vw;
+    margin-top: 8vw;
+    position: absolute;
+	border: 2.5px solid;
+    z-index: 1000;
+	color: orange;
+	opacity: 0.8;
+	background-color: blue;
+
+}
+.leftHand {
+	
+    height: 11%;
+    width: 5%;
+	margin-top: 5vh;
+    margin-left: 2vw;
+    position: absolute;
+	border: 2.5px solid;
+	color: orange;
+	opacity: 0.8;
+	background-color: blue;
+    z-index: 1000;
+
+}
+.rightHand {
+    height: 11%;
+    width: 5%;
+	margin-top: 5vh;
+    margin-left: 30vw;
+    position: absolute;
+	border: 2.5px solid;
+	color: orange;
+	opacity: 0.8;
+	background-color: blue;
+    z-index: 1000;
+
+}
+.leftFoot {
+    height: 10%;
+    width: 5%;
+	margin-top: 65vh;
+    margin-left: 5vw;
+    position: absolute;
+	border: 2.5px solid;
+	color: orange;
+	opacity: 0.8;
+	background-color: blue;
+    z-index: 1000;
+
+}
+.rightFoot {
+    height: 10%;
+    width: 5%;
+	margin-top: 65vh;
+	    margin-left: 26vw;
+    position: absolute;
+	border: 2.5px solid;
+	color: orange;
+	opacity: 0.8;
+	background-color: blue;
+    z-index: 1000;
+
+}
+
+
+.head > img {
+    margin:auto;
+	display:block;
+    width: 100%;
+    height: 100%;
+}
+.upper > img {
+    width: 100%;
+    height: 100%;
+}
+.leftHand > img {
+    width: 100%;
+    height: 100%;
+}
+.rightHand > img {
+    width: 100%;
+    height: 100%;
+}
+.leftFoot > img {
+    width: 100%;
+    height: 100%;
+}
+.rightFoot > img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.hats {
+    border: 2.5px solid;
+
+}
+.tops {
+    border: 2.5px solid;
+}
+.hands{
+    border: 2.5px solid;
+}
+.shoes{
+    border: 2.5px solid;
+}
