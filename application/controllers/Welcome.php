@@ -6,7 +6,7 @@ class Welcome extends Application
 {
     public function index()
     {
-        $this->data['pagebody'] = 'index';
+        $this->data['pagebody'] = 'catalog';
         $this->render();
     }
 }
