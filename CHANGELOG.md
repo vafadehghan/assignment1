@@ -13,3 +13,9 @@ Changes:
 Changes:
 
 - added autoload feature to the autoload.php
+
+## 1.0.2 - 2018-02-11
+
+Changes:
+
+- fixed error in MY_Model.php that was present on PCs
