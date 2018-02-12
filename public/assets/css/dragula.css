@@ -2,19 +2,19 @@
   position: relative;
 }
 
-.items>.hats>img {
+.items>.hat>img {
   width: 10%;
 }
 
-.items>.tops>img {
+.items>.body>img {
   width: 10%;
 }
 
-.items>.hands>img {
+.items>.hand>img {
   width: 10%;
 }
 
-.items>.shoes>img {
+.items>.foot>img {
   width: 10%;
 }
 
@@ -132,18 +132,18 @@
   height: 100%;
 }
 
-.hats {
+.hat {
   border: 2.5px solid;
 }
 
-.tops {
+.body {
   border: 2.5px solid;
 }
 
-.hands {
+.hand {
   border: 2.5px solid;
 }
 
-.shoes {
+.foot {
   border: 2.5px solid;
 }
