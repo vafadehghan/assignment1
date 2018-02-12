@@ -56,3 +56,7 @@ Changes:
 ## 1.0.9 - 2018-02-11
 
 - Add sets buttons to main page, sets working
+
+## 1.0.10 - 2018-02-11
+
+- Added tooltips for all dynamically added items
