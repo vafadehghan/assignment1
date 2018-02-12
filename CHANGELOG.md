@@ -49,6 +49,10 @@ Changes:
 
 - Trying to add presets
 
-## 1.0.7 - 2018-02-11
+## 1.0.8 - 2018-02-11
 
 - Added even more accessories
+
+## 1.0.9 - 2018-02-11
+
+- Add sets buttons to main page, sets working
