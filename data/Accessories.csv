@@ -8,3 +8,6 @@ accessoryId,accessoryName,accessoryImg,accessoryComfort,accessorySpeed,accessory
 6,sweater,assets/img/sweater.png,8,4,6,1
 7,knife,assets/img/knife.png,0,0,0,2
 8,sneakers,assets/img/triples.png,6,10,3,3
+9,watch,assets/img/watch.png,7,1,10,2
+10,sandals,assets/img/sandals.png,8,4,4,3
+11,hoodie,assets/img/hoodie.png,10,3,1,1
