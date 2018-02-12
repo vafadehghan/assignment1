@@ -30,3 +30,15 @@ Changes:
 Changes:
 
 - Update Models, Controllers, start using Controller data instead of hardcoded
+
+## 1.0.5 - 2018-02-11
+
+Changes:
+
+- Added a navbar
+
+## 1.0.6 - 2018-02-11
+
+Changes:
+
+- Added more accessories
