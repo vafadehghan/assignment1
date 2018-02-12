@@ -21,21 +21,20 @@
 </nav>
 
 <div class="row">
+	<!--Boxes that hold accessories-->
 	<div class="col-md-6">
 		<span class="player">
-		  <span class="head"></span>
-		  <span class="upper"></span>
-			<span class="leftHand"></span>
-			<span class="rightHand"></span>
-			<span class="leftFoot"></span>
-			<span class="rightFoot"></span>
-
+		<span class="head"></span>
+		<span class="upper"></span>
+	    <span class="leftHand"></span>
+		<span class="rightHand"></span>
+		<span class="leftFoot"></span>
+		<span class="rightFoot"></span>
 		  <img src="assets/img/man2.png">
 		</span>
 	</div>
-
+    <!--Accessories-->
 	<div class="col-md-6">
-
 		<div class="row">
 			<span class="items">
 			{categories}
@@ -48,9 +47,7 @@
 			{/categories}
 			</span>
 		</div>
-
 	</div>
-
 </div>
 </div>
 
