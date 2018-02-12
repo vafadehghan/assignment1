@@ -6,28 +6,48 @@ class Info extends Application
 {
 	public function index()
 	{
-		$this->data['pagebody'] = 'welcome_message';
-		$this->render(); 
+		$data = json_encode(array("scenario" => "CST Student Outfitter"));
+		
+		$this->output->set_content_type('application/json');
+		$this->output->set_output($data);
 	}
 
-	public function category($key)
+	public function category($key = null)
 	{
-		return $this->output
-            ->set_content_type('application/json')
-            ->set_status_header(500)
-            ->set_output(json_encode(array(
-                    'text' => 'Error 500',
-                    'type' => 'danger'
-            )));
-	}
-	
-	public function catalog($key)
-	{
-		 
-	}
-	
-	public function bundle($key)
-	{
+		$data = json_encode($this->categories->get($key));
 		
+		if (is_null($key))
+		{
+			$data = json_encode($this->categories->all());
+		}
+		
+		$this->output->set_content_type('application/json');
+		$this->output->set_output($data);
+	}
+	
+	public function catalog($key = null)
+	{
+		$data = json_encode($this->accessories->get($key));
+		
+		if (is_null($key))
+		{
+			$data = json_encode($this->accessories->all());
+		}
+		
+		$this->output->set_content_type('application/json');
+		$this->output->set_output($data);
+	}
+	
+	public function bundle($key = null)
+	{
+		$data = json_encode($this->sets->get($key));
+		
+		if (is_null($key))
+		{
+			$data = json_encode($this->sets->all());
+		}
+		
+		$this->output->set_content_type('application/json');
+		$this->output->set_output($data);
 	}
 }
