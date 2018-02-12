@@ -34,22 +34,45 @@
 		</span>
 	</div>
 
-	<div class="col-md-6">
-
-		<div class="row">
-			<span class="items">
-			{categories}
-			<span class="{categoryName}">
-			{accessories}
-			<img src="{accessoryImg}" alt="{accessoryName}">
-			{/accessories}
-			</span>
-			<br>
-			{/categories}
-			</span>
+	<div id="all-items" class="items">
+		{categories}
+		<h2>{categoryName}</h2>
+		<div class="categories {categoryName}">
+		{accessories}
+			<div id="{accessoryName}" class="couponcode">
+                <img class="square {categoryName}" src="{accessoryImg}"/>
+                <div class="coupontooltip">
+					<div class="coupontooltip-text">
+						<h4>{accessoryName}</h4>
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th scope="col">Attribute</th>
+									<th scope="col">Value</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Comfort</td>
+									<td id="comfort">{accessoryComfort}</td>
+								</tr>
+								<tr>
+									<td>Speed</td>
+									<td id="speed">{accessorySpeed}</td>
+								</tr>
+								<tr>
+									<td>Professionality</td>
+									<td id="professionality">{accessoryProfessionality}</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+                </div>
+			</div>
+		{/accessories}
 		</div>
-
-	</div>
+		{/categories}
+        </div>
 
 </div>
 </div>
