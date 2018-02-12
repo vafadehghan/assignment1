@@ -41,7 +41,9 @@
 		<div id="{categoryName}" class="categories">
 		{accessories}
 			<div id="{accessoryName}" class="accessoryDiv couponcode">
-                <img style="height: 75px; width: 75px;" class="{categoryName}" src="{accessoryImg}"/>
+			<span class="{categoryName}">
+                <img class="square" src="{accessoryImg}"/>
+				</span>
                 <div class="coupontooltip">
 					<div class="coupontooltip-text">
 						<h4>{accessoryName}</h4>

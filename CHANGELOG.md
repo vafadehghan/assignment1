@@ -30,3 +30,9 @@ Changes:
 Changes:
 
 - Update Models, Controllers, start using Controller data instead of hardcoded
+
+## 1.0.5 - 2018-02-11
+
+Changes:
+
+- Added tooltips for all dynamically added items

@@ -60,9 +60,6 @@ var dragFeet = dragula([document.querySelector('.foot'), document.querySelector(
   copy: true
 });
 
-/* Tooltip-on-Hover
-------------------------------------------------------------------------------*/
-
 let tooltip = document.querySelectorAll('.tooltip');
 
 document.addEventListener('mousemove', function(e) {
