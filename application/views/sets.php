@@ -28,12 +28,12 @@
 <div class="row">
 <div class="col-md-6">
   <span class="player">
-    <span class="head"></span>
-    <span class="upper"></span>
-    <span class="leftHand"></span>
-    <span class="rightHand"></span>
-    <span class="leftFoot"></span>
-    <span class="rightFoot"></span>
+    <span id="head" class="head"></span>
+    <span id="upper" class="upper"></span>
+    <span id="leftHand" class="leftHand"></span>
+    <span id="rightHand" class="rightHand"></span>
+    <span id="leftFoot" class="leftFoot"></span>
+    <span id="rightFoot" class="rightFoot"></span>
 
     <img src="assets/img/man2.png">
   </span>
@@ -42,9 +42,9 @@
 <div class="col-md-6">
   <h4>Sets:</h4>
   <div class="dropdown">
-    <ul id="homepage-presets">
+    <ul id="setsList">
       {sets}
-      <li class="dropdown-item" data-setid="{setId}"><a>{name}</a></li>
+      <li data-setid="{setId}"><a>{name}</a></li>
       {/sets}
     </ul>
   </div>
@@ -54,5 +54,6 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.js'></script>
 <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-<script src="assets/scripts/script.js"></script>
+        <script src="assets/scripts/script.js"></script>
+        <script src="assets/scripts/sets.js"></script>
 <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script>
