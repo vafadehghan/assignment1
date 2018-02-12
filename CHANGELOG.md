@@ -24,3 +24,9 @@ Changes:
 Changes:
 
 - Added basic controllers which both pull the same data
+
+## 1.0.4 - 2018-02-11
+
+Changes:
+
+- Update Models, Controllers, start using Controller data instead of hardcoded

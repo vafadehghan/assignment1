@@ -18,6 +18,10 @@
   width: 10%;
 }
 
+.items>img {
+  width: 10%;
+}
+
 .head {
   height: 90px;
   width: 90px;

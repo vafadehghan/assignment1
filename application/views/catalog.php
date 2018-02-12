@@ -2,6 +2,24 @@
 <link rel="stylesheet" type="text/css" href="assets/css/dragula.css">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="/welcome">Yipper</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="/welcome">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/catalog">Catalog</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 <div class="row">
 	<div class="col-md-6">
 		<span class="player">
@@ -17,36 +35,25 @@
 	</div>
 
 	<div class="col-md-6">
+
 		<div class="row">
-			<h4>Items: </h4>
-		</div class="row">
-		<div class="row">
-		<span class="items">
-	    <span class="hats">
-        <img src="assets/img/hat.png">
-        <img src="assets/img/hat2.png">
-        <img src="assets/img/hat3.png">
-        <img src="assets/img/hat4.png">
-        <img src="assets/img/glasses.png">
-        <img src="assets/img/glasses2.png">
-	    </span>
-			<br>
-		  <span class="tops">
-		    <img src="assets/img/sweater.png">
-		  </span>
-			<br>
-			<span class="hands">
-				<img src="assets/img/knife.png">
+			<span class="items">
+			{categories}
+			<span class="{categoryName}">
+			{accessories}
+			<img src="{accessoryImg}" alt="{accessoryName}">
+			{/accessories}
 			</span>
 			<br>
-			<span class="shoes">
-			<img src="assets/img/triples.png">
+			{/categories}
 			</span>
-			<br>
-		</span>
-		</div class="row">
-		<hr>
+		</div>
+
 	</div>
+
+</div>
+</div>
+
 </div>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.js'></script>
