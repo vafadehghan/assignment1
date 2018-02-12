@@ -47,4 +47,8 @@ Changes:
 
 Changes:
 
+- Trying to add presets
+
+## 1.0.7 - 2018-02-11
+
 - Added even more accessories
