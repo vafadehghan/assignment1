@@ -60,3 +60,7 @@ Changes:
 ## 1.0.10 - 2018-02-11
 
 - Added tooltips for all dynamically added items
+
+## 1.0.11 - 2018-02-11
+
+- Final PR, fixes duplicating footwear and tooltips

@@ -70,7 +70,7 @@
 							</tbody>
 						</table>
 					</div>
-                </div>
+          </div>
 			</div>
 		{/accessories}
 		</span>
@@ -79,6 +79,7 @@
         </div>
 </div>
 </div>
+<br><br><br><br>
 </div>
 
 </div>
