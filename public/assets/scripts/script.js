@@ -41,7 +41,7 @@ var dragHands = dragula([document.querySelector('.hand'), document.querySelector
     }
 
   },
-  copy: true
+  copy: false
 });
 
 var dragFeet = dragula([document.querySelector('.foot'), document.querySelector('.leftFoot'), document.querySelector('.rightFoot')], {
@@ -57,14 +57,14 @@ var dragFeet = dragula([document.querySelector('.foot'), document.querySelector(
     }
 
   },
-  copy: true
+  copy: false
 });
 
 let tooltip = document.querySelectorAll('.tooltip');
 
 document.addEventListener('mousemove', function(e) {
-    for (let i = tooltip.length; i--;) {
-        tooltip[i].style.left = e.pageX + 'px';
-        tooltip[i].style.top = e.pageY + 'px';
-    }
+  for (let i = tooltip.length; i--;) {
+    tooltip[i].style.left = e.pageX + 'px';
+    tooltip[i].style.top = e.pageY + 'px';
+  }
 }, false);
