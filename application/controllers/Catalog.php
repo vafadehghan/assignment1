@@ -2,13 +2,8 @@
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Welcome extends Application
+class Catalog extends Application
 {
-    public function __construct()
-    {
-        parent::__construct();
-    }
-
     public function index()
     {
         $categories = $this->categories->all();
@@ -24,9 +19,9 @@ class Welcome extends Application
 
         $this->data['sets'] = $sets;
         $this->data['categories'] = $categories;
-              
-        $this->data['pagebody'] = 'sets';
-        $this->data['pagetitle'] = 'Home';
+
+        $this->data['pagebody'] = 'catalog';
+        $this->data['pagetitle'] = 'All Items';
         $this->render();
     }
 }
