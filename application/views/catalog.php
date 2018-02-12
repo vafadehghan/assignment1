@@ -46,8 +46,6 @@
 		</span>
 		</div class="row">
 		<hr>
-			<h4>Sets: </h4>
-			<a href="#">Set 1</a>
 	</div>
 </div>
 
