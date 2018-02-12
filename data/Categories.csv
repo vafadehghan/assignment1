@@ -1,1 +1,5 @@
-categoryId,categoryName,description0,head,Persons head1,torso,Persons torso2,hand,Persons hands3,foot,persons feet
+categoryId,categoryName,description
+0,head,head
+1,torso,torso
+2,hand,hands
+3,foot,feet

@@ -18,9 +18,6 @@
 
 	<div class="col-md-6">
 		<div class="row">
-			<h4>Items: </h4>
-		</div class="row">
-		<div class="row">
 		<span class="items">
 	    <span class="hats">
         <img src="assets/img/hat.png">
@@ -44,9 +41,24 @@
 			</span>
 			<br>
 		</span>
-		</div class="row">
+		</div>
 		<hr>
+		<div class="row">
+			<span class="items">
+			{categories}
+			<span class="categoryName">
+			{accessories}
+			<img style="width: 10%; height: width;" src="{accessoryImg}" alt="{accessoryName}">
+			{/accessories}
+			</span>
+			<br>
+			{/categories}
+			</span>
+		</div>
 	</div>
+</div>
+</div>
+
 </div>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.js'></script>
