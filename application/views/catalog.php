@@ -34,13 +34,14 @@
 		</span>
 	</div>
 
+	<div class="col-md-6">
 	<div id="all-items" class="items">
 		{categories}
 		<h2>{categoryName}</h2>
-		<div class="categories {categoryName}">
+		<div id="{categoryName}" class="categories">
 		{accessories}
-			<div id="{accessoryName}" class="couponcode">
-                <img class="square {categoryName}" src="{accessoryImg}"/>
+			<div id="{accessoryName}" class="accessoryDiv couponcode">
+                <img style="height: 75px; width: 75px;" class="{categoryName}" src="{accessoryImg}"/>
                 <div class="coupontooltip">
 					<div class="coupontooltip-text">
 						<h4>{accessoryName}</h4>
@@ -73,7 +74,7 @@
 		</div>
 		{/categories}
         </div>
-
+</div>
 </div>
 </div>
 
