@@ -5,14 +5,14 @@
 <div class="row">
 	<div class="col-md-6">
 		<span class="player">
-		  <span class="head"></span>
-		  <span class="upper"></span>
-			<span class="leftHand"></span>
-			<span class="rightHand"></span>
-			<span class="leftFoot"></span>
-			<span class="rightFoot"></span>
+		<span class="head"></span>
+		<span class="upper"></span>
+		<span class="leftHand"></span>
+		<span class="rightHand"></span>
+		<span class="leftFoot"></span>
+		<span class="rightFoot"></span>
 
-		  <img src="assets/img/man2.png">
+		<img src="assets/img/man2.png">
 		</span>
 	</div>
 
@@ -48,7 +48,9 @@
 			{categories}
 			<span class="categoryName">
 			{accessories}
+			<span class="{category}">
 			<img style="width: 10%; height: width;" src="{accessoryImg}" alt="{accessoryName}">
+			</span>
 			{/accessories}
 			</span>
 			<br>
