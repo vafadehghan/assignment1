@@ -41,13 +41,13 @@
 
 <div class="col-md-6">
   <h4>Sets:</h4>
-
-  <ul>
-    {sets}
-      <li><a>{name}</a></li>
-    {/sets}
-  </ul>
-
+  <div class="dropdown">
+    <ul id="homepage-presets">
+      {sets}
+      <li class="dropdown-item" data-setid="{setId}"><a>{name}</a></li>
+      {/sets}
+    </ul>
+  </div>
 </div>
 </div>
 
