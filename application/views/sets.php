@@ -8,11 +8,31 @@
   <h4>CST Student Customizer</h4>
 </div>
 
-{categories}
-  <div id="{categoryName}" class="dropzone {categoryName}" style="text-transform: capitalize">
-    {categoryName}
-  </div>
-{/categories}
+<div class="row">
+<div class="col-md-6">
+  <span class="player">
+    <span class="head"></span>
+    <span class="upper"></span>
+    <span class="leftHand"></span>
+    <span class="rightHand"></span>
+    <span class="leftFoot"></span>
+    <span class="rightFoot"></span>
+
+    <img src="assets/img/man2.png">
+  </span>
+</div>
+
+<div class="col-md-6">
+  <h4>Sets:</h4>
+
+  <ul>
+    {sets}
+      <li><a>{name}</a></li>
+    {/sets}
+  </ul>
+
+</div>
+</div>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.js'></script>
 <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
