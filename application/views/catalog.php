@@ -39,11 +39,11 @@
 		{categories}
 		<h2>{categoryName}</h2>
 		<div id="{categoryName}" class="categories">
+		<span class="{categoryName}">
+
 		{accessories}
 			<div id="{accessoryName}" class="accessoryDiv couponcode">
-			<span class="{categoryName}">
                 <img class="square" src="{accessoryImg}"/>
-				</span>
                 <div class="coupontooltip">
 					<div class="coupontooltip-text">
 						<h4>{accessoryName}</h4>
@@ -73,6 +73,7 @@
                 </div>
 			</div>
 		{/accessories}
+		</span>
 		</div>
 		{/categories}
         </div>
